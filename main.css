@@ -1,0 +1,26 @@
+footer {
+    font-size: 20px;
+}
+
+#consent-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 8rem;
+    background-color: gray;
+    transition: opacity 1s ease;
+    color: black;
+
+
+    &.hidden {
+        opacity: 0;
+    }
+}
+.dark-mode {
+    background-color: black;
+    color: white;}
+
+.Copyright {
+    margin-top: 28em;
+}
